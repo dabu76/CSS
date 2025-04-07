@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>僕だけの日基調</title>
     <link rel="stylesheet" href="./index.css" />
@@ -16,14 +15,15 @@
         <div class="menu">
           <ul class="menu__ul">
             <li>
-              <a href="#none">昨日の日記 </a>
+              <a href="#none">昨日の日記</a>
             </li>
             <li>
               <a href="#none">今日の日記</a>
             </li>
             <li>
-              <a href="#none"> 明日の日記 </a>
+              <a href="#none">明日の日記</a>
             </li>
+            <div class="clearfix"></div>
           </ul>
         </div>
         <div class="user">
@@ -34,36 +34,34 @@
             height="32"
           />
         </div>
+        <div class="clearfix"></div>
       </div>
     </header>
     <div class="container">
       <div class="wrapper">
         <div class="wrapper__head">
-          <h1 class="wrapper__head__title">나만의 일기장</h1>
+          <h1 class="wrapper__head__title">僕だけの日基調</h1>
           <p class="wrapper__head__sub-title">
             僕だけの日基調です！<br />
-            欲しがる色とサイズで日基調をカスタムしましょう<br />
-            <span id="point"> Have a Good Day. </span>
+            欲しがる色とサイズで日基調をカスタムしましょう。<br /><br />
+            <span id="point"> Have a good Day. </span>
           </p>
         </div>
         <div class="wrapper__body">
           <div class="wrapper__body__content">
-            <p class="diary-title">勉強の日基</p>
+            <h3 class="wrapper__body__sub-title">勉強の日基</h3>
+            <p>もうJSの授業終わって<span id="red">CSS</span>を勉強したら</p>
+            <p>似たようなものがあってもう一度復習することができた</p>
+            <p>リマインドしながら</p>
             <p>
-              もうJSの授業終わって <span class="kimchi">CSS</span>を勉強したら.
-              似たようなものがあってもう一度復習することができた<br />
-              リマインドしながら すこしづつ地道にやっていく<span
-                class="highlight"
-                >習慣を身につけていかなければならない!
-              </span>
+              すこしづつ地道にやっていく
+              <span id="blue">習慣を身につけていかなければならない!</span>
             </p>
-            <p class="diary-date">
-              2025年04月06日<br />
-              天気晴れ
-            </p>
+            <p id="side">2025年04月06日<br />天気晴れ</p>
           </div>
         </div>
       </div>
     </div>
   </body>
 </html>
+<br />
